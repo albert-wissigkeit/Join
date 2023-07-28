@@ -1,0 +1,132 @@
+.flex {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title input {
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    padding: 11px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.description textarea {
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    padding: 11px;
+    outline: none;
+    resize: none;
+}
+
+.prio {
+    display: flex;
+    flex-direction: column;
+}
+
+/* solange es die prioclass & prirow doppelt gibt im add-task ist alles gut dann weg am ende! */
+/* .prio-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    width: 15%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 5px;
+} */
+
+/* .prio-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+} */
+
+.prio-urgent {
+    background: #FF3D00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.date-box {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    padding: 11px;
+    justify-content: space-between;
+}
+
+.date-box img {
+    height: 18px;
+    width: 18px;
+}
+
+.input-date {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.assigned-select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    isolation: isolate;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    padding: 11px;
+}
+
+.name-border2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px;
+    gap: 10px;
+    color: white;
+    width: 45px;
+    height: 45px;
+    background: #FFA800;
+    border: 2px solid #FFFFFF;
+    border-radius: 58px;
+}
+
+.ok-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 81%;
+    right: 5%;
+    background: #2A3647;
+    border-radius: 10px;
+}

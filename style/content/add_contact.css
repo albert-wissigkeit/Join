@@ -1,0 +1,114 @@
+.mt-0 {
+    margin-top: 0;
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 35px;
+    gap: 49px;
+    height: 65vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-bg {
+    height: 45%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #2A3647;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.big-initials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
+    background: #D1D1D1;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 70px;
+}
+
+.contact-box {
+    margin-top: 20px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.name-box {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    padding: 11px;
+    justify-content: space-between;
+}
+
+.name-box img {
+    height: 15px;
+}
+
+.input-name {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.form-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-contact {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 51px;
+    /* Höhe des Elements */
+    padding: 0px 10px;
+    color: white;
+    background: #2A3647;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.125s ease !important;
+    letter-spacing: 0.5px;
+}
+
+.create-contact img {
+    padding-left: 10px;
+    height: 14px;
+}
+
+.create-contact:hover {
+    border: none;
+    background-color: #29ABE2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.125s ease;
+}
